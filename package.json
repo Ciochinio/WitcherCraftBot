@@ -1,0 +1,22 @@
+{
+  "name": "witchercraftbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ciochinio/WitcherCraftBot.git"
+  },
+  "author": "Red Bolt Media",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ciochinio/WitcherCraftBot/issues"
+  },
+  "homepage": "https://github.com/Ciochinio/WitcherCraftBot#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
