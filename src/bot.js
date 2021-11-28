@@ -12,6 +12,8 @@ const commandFolders = fs.readdirSync('./src/commands');
     
 
 
+const keepAlive = require('./server.js');
+keepAlive();
 
 
 // client.on("ready", () => {
