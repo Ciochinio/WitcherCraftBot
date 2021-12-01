@@ -1,0 +1,10 @@
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
+module.exports = {
+	data: new SlashCommandBuilder()
+		.setName('launcher')
+		.setDescription("Launcher dzięki, któremu uruchomisz WitcherCraft'a bez konieczności instalowania dodatkowych plików!"),
+	async execute(interaction) {
+		await interaction.reply('link do launchera');
+	},
+};

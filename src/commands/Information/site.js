@@ -2,9 +2,9 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('ping')
-		.setDescription('Opis!'),
+		.setName('strona')
+		.setDescription("Odwiedź oficjalną stronę WitcherCraft'a!"),
 	async execute(interaction) {
-		await interaction.reply('Pong!');
+		await interaction.reply('https://thewitchercraft.com/');
 	},
 };
